@@ -4,6 +4,7 @@ export interface RainfallReading {
   reading_date: string
   created_at: string
   created_by: string | null
+  estimated_date?: boolean
 }
 
 export interface Profile {
