@@ -21,7 +21,7 @@ import { Spinner } from '@/components/ui/spinner'
 // Only these emails can log in as admin
 const ADMIN_EMAILS = [
   'antonroets101@gmail.com',
-  'steffcode69@gmail.com',
+  'stefanroetsapple@gmail.com',
 ]
 
 export default function AdminLoginPage() {

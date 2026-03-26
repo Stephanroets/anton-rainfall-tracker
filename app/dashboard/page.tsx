@@ -10,7 +10,7 @@ import type { RainfallReading, Profile } from "@/lib/types"
 // Only these emails can access the admin dashboard
 const ADMIN_EMAILS = [
   'antonroets101@gmail.com',
-  'steffcode69@gmail.com',
+  'stefanroetsapple@gmail.com',
 ]
 
 export default async function DashboardPage() {
