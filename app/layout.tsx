@@ -13,22 +13,26 @@ export const metadata: Metadata = {
   generator: 'v0.app',
   icons: {
     icon: [
+      { url: '/favicon.ico', sizes: '48x48', type: 'image/x-icon' },
+      { url: '/icon.svg', type: 'image/svg+xml' },
+      { url: '/icon.png', sizes: '96x96', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/apple-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+    other: [
       {
-        url: '/favicon.ico',
-        sizes: 'any',
-      },
-      {
-        url: '/icon0.svg',
-        type: 'image/svg+xml',
-      },
-      {
-        url: '/icon1.png',
-        type: 'image/png',
+        rel: 'mask-icon',
+        url: '/icon.svg',
       },
     ],
-    apple: '/apple-icon.png',
   },
   manifest: '/manifest.json',
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: 'default',
+    title: 'Rain Gauge',
+  },
 }
 
 export const viewport: Viewport = {
