@@ -14,20 +14,21 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
+        url: '/favicon.ico',
+        sizes: 'any',
       },
       {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
+        url: '/icon0.svg',
         type: 'image/svg+xml',
+      },
+      {
+        url: '/icon1.png',
+        type: 'image/png',
       },
     ],
     apple: '/apple-icon.png',
   },
+  manifest: '/manifest.json',
 }
 
 export const viewport: Viewport = {
